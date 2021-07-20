@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background-image: linear-gradient(to right, #6D72C3 , #5941A9);
+    color: #F6F1F9;
+    margin: 0px;
+}
+
+#container {
+    background-image: url(../images/background-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position-y: bottom;
+}
+
+#title {
+    margin: 0 3em;
+    font-size: 2.5em;
+    width: 50%;
+}
+
+#links {
+    margin: 0 100px;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+#links ul li {
+    list-style: none;
+}
+
+#links ul li a {
+    color: #f6f1f9;
+}
+
+#links ul li a:hover {
+    color: #5941A9;
+}
